@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Box, Heading, FormControl, FormLabel, Input, Button } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
-import { Navbar } from '../navbar/nav';
+import { Navbar } from '../../navbar/nav';
 
 export const AdminLogin = () => {
     const [username, setUsername] = useState('');

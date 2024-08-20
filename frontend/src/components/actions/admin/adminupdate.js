@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Box, Heading, FormControl, FormLabel, Input, Button, Select, Flex } from '@chakra-ui/react';
 import axios from 'axios';
-import { api } from '../actions/api';
-import { Navbar } from '../navbar/nav';
+import { api } from '../api';
+import { Navbar } from '../../navbar/nav';
 
 export const AdminUpdate = () => {
     const [matchId, setMatchId] = useState('');

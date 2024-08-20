@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Heading, SimpleGrid, Button, Flex } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
-import { Navbar } from '../navbar/nav';
+import { Navbar } from '../../navbar/nav';
 
 export const AdminDashboard = () => {
     const nav = useNavigate();
