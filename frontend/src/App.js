@@ -14,7 +14,7 @@ import { StudentData } from './components/players/details';
 // import { Navbar } from './components/navbar/nav';
 import { PTsirLogin } from './components/PTsir/ptlogin';
 import { PTdashboard } from './components/PTsir/ptdash';
-// import { SlotBook, SlotBooking } from './components/PTsir/slotbook';
+import { SlotBook } from './components/PTsir/slotbooking';
 import { slotProtectedRoute } from './components/signin/slotProt';
 
 function App() {
